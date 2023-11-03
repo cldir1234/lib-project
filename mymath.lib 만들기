@@ -1,0 +1,32 @@
+mkdir son
+cd son
+
+ test.c
+// test.c 
+
+#include<stdio.h>
+
+void main(){
+
+printf("%d\n", add(22,33));
+
+}
+
+
+add.c
+
+// add.c
+
+int add(int a, int b){
+
+return(a+b);
+
+}
+
+cl/c add.c sub.c 
+
+ lib /OUT:my.lib add.obj sub.obj
+
+ link test my.lib
+
+ test
