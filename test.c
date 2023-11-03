@@ -4,6 +4,6 @@
 
 void main(){
 
-printf("%d\n", add(4,5));
+printf("%d\n", add(22,33));
 
 }
